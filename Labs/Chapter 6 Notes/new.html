@@ -1,0 +1,82 @@
+<!-- Dalton Murray -->
+
+<!doctype html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<title>Title at top of tab</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	
+</head>
+<body>
+	
+	<p id="p1">This is paragraph one</p>
+	
+	<p id="p2">This is paragraph two</p>
+	
+	<input type="text" id="fName">
+	<input type="text" id="lName">
+	
+	
+	<script type="text/javascript">
+		
+		var x = 5;
+		var name = "John Smith";
+		const PI = 3.14;
+		
+		x = 10;
+		name = "Sarah Johnes";
+		
+		var a = 1, b = 2, c = a + b;
+		
+		var fName = "John";
+		var lName = "Smith";
+		
+		var fullName = fName + '' + lName;
+		
+		var myArray = [11, 41, 51, 91];
+		document.write("Array: " + myArray[0]);
+		document.write(" Name Length: " + lName.length);
+		
+		var flag = false;
+		
+		var z = function() {};
+		
+		var name = {fname:"Seyed", lName:"Mojab"};
+		
+		var student = {
+			fName: "Sarah",
+			lName: "Johnes",
+			age: 25,
+			height: 180,
+			fullName: function () {
+				return this.fName + " " + this.lName;
+			}
+		};
+		/*console.log(student.age); */
+		//console.log(x);
+		//document.write(student.height, "\n");
+		
+		document.getElementById("p2").innerHTML = "Hello World!";
+		
+		alert("Hello");
+		
+		function getFullName () {
+			var fName = document.getElementById("fName").value;
+			var lName = document.getElementById("lName").value;
+			
+			var fullName = fName + " " + lName;
+			alert("Hello, " + fullName);
+		}
+		
+	</script>
+
+	<button onClick="getFullName()">Click Me</button>
+	<button onClick=alert(document.getElementById("p1").innerHTML)>Paragraph 1</button>
+	<button onClick="document.getElementById('p1').innerHTML = Date()">Print date</button>
+	
+	<button onClick="document.getElementById('p1').style.color = 'Red' ">Change Colour</button>
+
+</body>
+</html>

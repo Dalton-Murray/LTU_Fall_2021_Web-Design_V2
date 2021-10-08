@@ -1,0 +1,133 @@
+global {
+	background-color: #FCEBB6;
+	color: #221811;
+	font-family: tahoma,Arial,sans-serif;
+}
+
+main {
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-top: 0em;
+	padding-bottom: 2em;
+	margin-left: 200px;
+	display: block;
+	background-color: #FEF6C2;
+	overflow: auto;
+}
+
+main h2, main h3, main h4, main p, main div, main ul, main dl {
+	padding-left: 3em;
+	padding-right: 2em;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.details{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+#wrapper {
+	min-width: 900px;
+	max-width: 1280px;
+	background-color: #231814;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 3px 3px #654321;
+	padding: 0px;
+}
+
+#homehero {
+	height: 300px;
+	background-size: 100%;
+	background-image: url("Images/Images/hero.jpg");
+}
+
+#heromugs {
+	height: 300px;
+	background-size: 100%;
+	background-image: url("Images/Images/heromugs.jpg");
+}
+
+#heroguitar {
+	height: 300px;
+	background-size: 100%;
+	background-image: url("Images/Images/heroguitar.jpg");
+}
+
+body {
+	background-color: #FEFAEB;
+	background-image: url("Images/Images/fadedroad50.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+header {
+	background-image: url("Images/Images/coffeelogo.jpg");
+	background-repeat: no-repeat;
+	background-color: #D2B48C;
+	color: #231814;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 240px;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	color: #8C3826;
+}
+
+h4 {
+	background-color: #D2B48C;
+	font-size: 1.2em;
+	padding-left: 0.5em;
+	padding-bottom: 0.25em;
+	text-transform: uppercase;
+	border-bottom: 1px solid black;
+}
+
+img {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+nav {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	float: left;
+	width: 200px;
+}
+nav a {
+	text-decoration: none;
+}
+nav a:link {
+	color: #FEF62C;
+}
+nav a:visited {
+	color: #D2B48C;
+}
+nav a:hover {
+	color: #CC9933;
+}
+nav ul {
+	padding-left: 0px;
+	list-tyle-type: none;
+}
+
+footer {
+	background-color: #D2B48C;
+	text-align: center;
+	font-style: italic;
+	font-size: 0.60em;
+	padding: 1em;
+	border-top: solid 2px #8C3826;
+}
