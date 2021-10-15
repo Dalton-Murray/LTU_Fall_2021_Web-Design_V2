@@ -27,18 +27,6 @@ main h2, main h3, main h4, main p, main div, main ul, main dl {
 .details{
 	padding-left: 20%;
 	padding-right: 20%;
-	overflow: auto;
-}
-
-.floatleft {
-	float: left;
-	padding-bottom: 2em;
-	padding-right: 2em;
-}
-
-.onethird {
-	float: left;
-	width: 33%;
 }
 
 #wrapper {
@@ -67,7 +55,6 @@ main h2, main h3, main h4, main p, main div, main ul, main dl {
 	height: 300px;
 	background-size: 100%;
 	background-image: url("Images/Images/heroguitar.jpg");
-	background-repeat: no-repeat;
 }
 
 body {
@@ -88,21 +75,6 @@ header {
 	padding-left: 240px;
 }
 
-header a:link {
-	text-decoration: none;
-	color: #231814;
-}
-
-header a:visited {
-	text-decoration: none;
-	color: #231814;
-}
-
-header a:hover {
-	text-decoration: none;
-	color: #FEF6C2;
-}
-
 h1 {
 	font-size: 3em;
 }
@@ -111,22 +83,13 @@ h2 {
 	color: #8C3826;
 }
 
-h3 {
-	color: #8C3826;
-}
-
 h4 {
 	background-color: #D2B48C;
 	font-size: 1.2em;
 	padding-left: 0.5em;
-	padding-bottom: 0;
+	padding-bottom: 0.25em;
 	text-transform: uppercase;
-	border-bottom: 1px solid #000033;
-	clear: left;
-}
-
-dt {
-	color: #8C3826;
+	border-bottom: 1px solid black;
 }
 
 img {
@@ -157,7 +120,7 @@ nav a:hover {
 }
 nav ul {
 	padding-left: 0px;
-	list-style-type: none;
+	list-tyle-type: none;
 }
 
 footer {
