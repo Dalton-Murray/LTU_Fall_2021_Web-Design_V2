@@ -1,0 +1,111 @@
+<!-- Dalton Murray -->
+
+<!doctype html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<title>Title at top of tab</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+	<style>
+		form {
+			display:table;
+		}
+
+
+	</style>
+
+</head>
+<body>
+
+	<form method="post" action="process.php">
+		<fieldset>
+			<legend>Login Information</legend>
+
+			<label>Username:
+				<br>
+				<input type="text" id="username" name="username" tabindex="1" placeholder="Username">
+			</label>
+
+			<br>
+			<label>Password:
+				<br>
+				<input type="password" id="pass" name="pass" tabindex="2" placeholder="Password">
+			</label>
+
+			<br>
+			<label>Date of birth:
+				<br>
+				<input type="date" tabindex="3">
+			</label>
+
+			<br>
+			<label> Telephone number:
+				<br>
+				<input type="tel" placeholder="(___) ___ - ____" minlength="10" maxlength="10" tabindex="4" required>
+			</label>
+
+			<br>
+			<label>Email:
+				<br>
+				<input type="email" placeholder="Example@example.com" tabindex="5" accesskey="z">
+			</label>
+		</fieldset>
+		<br>
+		<br>
+		<input type="color">
+		<br>
+		1 <input type="range" min="1" max="100" id="range"> 100
+		<br>
+		<input type="number" min="50" max="75" placeholder="50 - 75">
+		<br>
+		<input type="checkbox" id="tennis">
+		<label for="tennis">Tennis</label>
+		<br>
+		<input type="checkbox" id="soccer">
+		<label for="soccer">Soccer</label>
+		<br>
+		<input type="checkbox" id="swimming">
+		<label for="swimming">Swimming</label>
+		<br>
+
+		<br>
+		<input type="radio" name="gender" id="male">
+		<label for="male">Male</label>
+		<br>
+		<input type="radio" name="gender" id="female">
+		<label for="female" style="">Female</label>
+		<br>
+		<input type="radio" name="gender" id="other">
+		<label for="other">Other</label>
+
+		<br>
+		<br>
+
+		<label for="color-choice">Colors: </label>
+		<input list="colors" id="color-choice" name="color-choice"/>
+
+		<datalist id="colors">
+			<option value="Blue">
+			<option value="Pink">
+			<option value="Yellow">
+			<option value="Green">
+			<option value="Brown">
+		</datalist>
+
+
+		<br>
+		<br>
+		<textarea cols="18" rows="5" maxlength="3000" placeholder="3000 characters max"></textarea>
+		<br>
+
+		<input type="hidden" value="1">
+		<br>
+		<input type="reset">
+		<input type="submit" value="Submit" style="font-weight: bold">
+
+	</form>
+
+</body>
+</html>
