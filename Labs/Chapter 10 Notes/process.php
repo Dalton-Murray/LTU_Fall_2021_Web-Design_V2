@@ -15,7 +15,7 @@
 		$username = $_REQUEST['username'];
 		$password = $_REQUEST['password'];
 		echo "Your username is: " .$username. " and your password is: " .$password;
-	>
+	?>
 
 </body>
 </html>
