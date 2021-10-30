@@ -196,6 +196,7 @@ footer {
 		display: flex;
 		flex-wrap: nowrap;
 		justify-content: space-around;
+		flex-direction: row;
 	}
 
 	nav li {
