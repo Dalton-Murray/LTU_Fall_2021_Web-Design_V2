@@ -1,9 +1,20 @@
+/* ===================== */
+/* ===== UNIVERSAL ===== */
+/* ===================== */
+* {
+	box-sizing: border-box;
+}
+
 global {
 	background-color: #FCEBB6;
 	color: #221811;
 	font-family: tahoma,Arial,sans-serif;
 }
 
+
+/* ================ */
+/* ===== MAIN ===== */
+/* ================ */
 main {
 	padding-left: 0em;
 	padding-right: 0em;
@@ -29,16 +40,18 @@ main ul {
 	padding-left: 2em;
 }
 
-* {
-	box-sizing: border-box;
-}
-
+/* =================== */
+/* ===== CLASSES ===== */
+/* =================== */
 .details{
 	padding-left: 20%;
 	padding-right: 20%;
 	overflow: auto;
 }
 
+/* ================ */
+/* ===== ID'S ===== */
+/* ================ */
 #wrapper {
 	background-color: #231814;
 	padding: 0px;
@@ -74,6 +87,10 @@ main ul {
 	display: none;
 }
 
+
+/* ================ */
+/* ===== BODY ===== */
+/* ================ */
 body {
 	/* Taken out due to page ending before bottom of color
 	background-color: #D2B48C;
@@ -84,6 +101,9 @@ body {
 	margin: 0;
 }
 
+/* =================== */
+/* ===== HEADERS ===== */
+/* =================== */
 header {
 	background-image: url("Images/Images/cup.jpg");
 	background-repeat: no-repeat;
@@ -132,15 +152,27 @@ h4 {
 	clear: left;
 }
 
+
+/* ============================ */
+/* ===== DESCRIPTIVE TERM ===== */
+/* ============================ */
 dt {
 	color: #8C3826;
 }
 
+
+/* ================= */
+/* ===== IMAGE ===== */
+/* ================= */
 img {
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
+
+/* ====================== */
+/* ===== NAVIGATION ===== */
+/* ====================== */
 nav {
 	text-align: center;
 	font-size: 1.5em;
@@ -176,6 +208,10 @@ nav li{
 	border-bottom: 1px solid;
 }
 
+
+/* ================== */
+/* ===== FOOTER ===== */
+/* ================== */
 footer {
 	background-color: #D2B48C;
 	text-align: center;
@@ -189,6 +225,9 @@ footer {
 	border-bottom: solid 2px black;
 }
 
+/* ================= */
+/* ===== TABLE ===== */
+/* ================= */
 table {
 	width: 90%;
 	border-spacing: 0;
@@ -205,6 +244,9 @@ tr:nth-of-type(odd){
 }
 
 
+/* ======================== */
+/* ===== SCREEN 600PX ===== */
+/* ======================== */
 @media screen and (min-width: 600px) {
 	header {
 		text-align: center;
@@ -259,6 +301,9 @@ tr:nth-of-type(odd){
 
 }
 
+/* ========================= */
+/* ===== SCREEN 1024PX ===== */
+/* ========================= */
 @media screen and (min-width: 1024px) {
 
 	@supports (display: grid) {
