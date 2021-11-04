@@ -13,7 +13,7 @@ main {
 	background-color: #FEF6C2;
 }
 
-/*
+/* Taken out before chapter 7 due to it switching the selector
 main h2, main h3, main h4, main p, main div, main ul, main dl {
 	padding-left: 1em;
 	padding-right: 1em;
@@ -42,25 +42,26 @@ main ul {
 #wrapper {
 	background-color: #231814;
 	padding: 0px;
+	height: 100%;
 }
 
 #homehero {
 	height: 300px;
-	background-size: 100%;
+	background-size: 100% 100%;
 	background-image: url("Images/Images/road.jpg");
 	background-repeat: no-repeat;
 }
 
 #heromugs {
 	height: 300px;
-	background-size: 100%;
+	background-size: 100% 100%;
 	background-image: url("Images/Images/threemugs.jpg");
 	background-repeat: no-repeat;
 }
 
 #heroguitar {
 	height: 300px;
-	background-size: 100%;
+	background-size: 100% 100%;
 	background-image: url("Images/Images/guitar.jpg");
 	background-repeat: no-repeat;
 }
@@ -74,7 +75,9 @@ main ul {
 }
 
 body {
+	/* Taken out due to page ending before bottom of color
 	background-color: #D2B48C;
+	*/
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -181,13 +184,16 @@ footer {
 	padding: 1em;
 	border-top: solid 2px #8C3826;
 	width: 100%;
-	height: 50px;
+	display:block;
+	/*Added so it looks like the page properly ends on larger monitors*/
+	border-bottom: solid 2px black;
 }
 
 table {
 	width: 90%;
 	border-spacing: 0;
-
+	margin: auto;
+	align-content: center;
 }
 
 th, td {
@@ -197,6 +203,7 @@ th, td {
 tr:nth-of-type(odd){
 	background-color: #DCB48C;
 }
+
 
 @media screen and (min-width: 600px) {
 	header {
