@@ -301,7 +301,7 @@ tr:nth-of-type(odd){
 /* ============================ */
 /* ===== 12. SCREEN 600PX ===== */
 /* ============================ */
-@media screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
 	header {
 		text-align: center;
 		padding-left: 0px;
@@ -358,7 +358,7 @@ tr:nth-of-type(odd){
 /* ============================= */
 /* ===== 13. SCREEN 1024PX ===== */
 /* ============================= */
-@media screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
 
 	@supports (display: grid) {
 		header {
