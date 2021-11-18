@@ -1,0 +1,433 @@
+/* ========================= */
+/* ===== DALTON MURRAY ===== */
+/* ========================= */
+
+/* ============================== */
+/* = DOCUMENT INFORMATION       = */
+/* =	- Document: javajam.css = */
+/* =	- Version:  1.0.2       = */
+/* = 	- Client:   Windows 10  = */
+/* ============================== */
+
+/* ====================================================== */
+/* = Fonts                                              = */
+/* =	- universal  tahoma, Arial, sans-serif			= */
+/* ====================================================== */
+
+/* ================================================== */
+/* = Colors                                         = */
+/* =	- main background			#FCEBB6			= */
+/* =	- navigaton bar background	#221811			= */
+/* =	- header text 				#231814 		= */
+/* =	- header background			#D2B48C			= */
+/* =	- header anchor link		#231814			= */
+/* =	- header anchor visit		#231814			= */
+/* =	- header anchor hover		#FEF6C2			= */
+/* =	- nav link					#FEF62C			= */
+/* =	- nav hover					#CC9933 		= */
+/* =	- nav visit					#D2B48C			= */
+/* =	- h2, h3 text				#8C3826			= */
+/* =	- h4 background				#D2B48C			= */
+/* =	- dt text					#8C3826			= */
+/* =	- footer background			#D2B48C			= */
+/* =	- footer border top			#8C3826 		= */
+/* =	- table tr odd				#DCB48C 		= */
+/* ================================================== */
+
+/* ======================== */
+/* CSS DIRECTORY		  = */
+/*	1. UNIVERSAL		  = */
+/*	2. MAIN				  = */
+/*  3. CLASSES			  = */
+/*	4. ID'S				  = */
+/*	5. BODY			 	  = */
+/*	6. HEADERS			  = */
+/*	7. DESCRIPTIVE TERM	  = */
+/*	8. IMAGE			  = */
+/*	9. NAVIGATION		  = */
+/*	10. FOOTER			  = */
+/*	11. TABLE, FORM		  = */
+/*	12. SCREEN 600PX	  = */
+/*	13. SCREEN 1024PX	  = */
+/* ======================== */
+
+
+/* ======================== */
+/* ===== 1. UNIVERSAL ===== */
+/* ======================== */
+* {
+	box-sizing: border-box;
+}
+
+global {
+	background-color: #FCEBB6;
+	color: #221811;
+	font-family: tahoma,Arial,sans-serif;
+}
+
+
+/* =================== */
+/* ===== 2. MAIN ===== */
+/* =================== */
+main {
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-top: 0em;
+	padding-bottom: 2em;
+	display: block;
+	background-color: #FEF6C2;
+}
+
+/* Taken out before chapter 7 due to it switching the selector
+main h2, main h3, main h4, main p, main div, main ul, main dl {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+*/
+
+main h2, main h3, main h4, main p, main div, main dl {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+main ul {
+	padding-left: 2em;
+}
+
+/* ====================== */
+/* ===== 3. CLASSES ===== */
+/* ====================== */
+.details{
+	padding-left: 20%;
+	padding-right: 20%;
+	overflow: auto;
+}
+
+/* =================== */
+/* ===== 4. ID'S ===== */
+/* =================== */
+#wrapper {
+	background-color: #231814;
+	padding: 0px;
+	height: 100%;
+}
+
+#homehero {
+	height: 300px;
+	background-size: 100% 100%;
+	background-image: url("Images/Images/road.jpg");
+	background-repeat: no-repeat;
+}
+
+#heromugs {
+	height: 300px;
+	background-size: 100% 100%;
+	background-image: url("Images/Images/threemugs.jpg");
+	background-repeat: no-repeat;
+}
+
+#heroguitar {
+	height: 300px;
+	background-size: 100% 100%;
+	background-image: url("Images/Images/guitar.jpg");
+	background-repeat: no-repeat;
+}
+
+#herojobs {
+	height: 300px;
+	background-image: url("Images/Images/coffeecup.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#mobile {
+	display: inline;
+}
+
+#desktop {
+	display: none;
+}
+
+
+/* =================== */
+/* ===== 5. BODY ===== */
+/* =================== */
+body {
+	/* Taken out due to page ending before bottom of color
+	background-color: #D2B48C;
+	*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0;
+}
+
+/* ====================== */
+/* ===== 6. HEADERS ===== */
+/* ====================== */
+header {
+	background-image: url("Images/Images/cup.jpg");
+	background-repeat: no-repeat;
+	background-color: #D2B48C;
+	color: #231814;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 105px;
+	height: 128px;
+}
+
+header a:link {
+	text-decoration: none;
+	color: #231814;
+}
+
+header a:visited {
+	text-decoration: none;
+	color: #231814;
+}
+
+header a:hover {
+	text-decoration: none;
+	color: #FEF6C2;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	color: #8C3826;
+}
+
+h3 {
+	color: #8C3826;
+}
+
+h4 {
+	background-color: #D2B48C;
+	font-size: 1.2em;
+	padding-left: 0.5em;
+	padding-bottom: 0;
+	text-transform: uppercase;
+	border-bottom: 1px solid #000033;
+	clear: left;
+}
+
+
+/* =============================== */
+/* ===== 7. DESCRIPTIVE TERM ===== */
+/* =============================== */
+dt {
+	color: #8C3826;
+}
+
+
+/* ==================== */
+/* ===== 8. IMAGE ===== */
+/* ==================== */
+img {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+/* ========================= */
+/* ===== 9. NAVIGATION ===== */
+/* ========================= */
+nav {
+	text-align: center;
+	font-size: 1.5em;
+}
+nav a {
+	text-decoration: none;
+}
+nav a:link {
+	color: #FEF62C;
+}
+nav a:visited {
+	color: #D2B48C;
+}
+nav a:hover {
+	color: #CC9933;
+}
+nav ul {
+	display: flex;
+	padding-left: 0px;
+	list-style-type: none;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	font-size: 1.25em;
+}
+
+nav li{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-right: 1em;
+	padding-left: 1em;
+	width: 100%;
+	border-bottom: 1px solid;
+}
+
+
+/* ====================== */
+/* ===== 10. FOOTER ===== */
+/* ====================== */
+footer {
+	background-color: #D2B48C;
+	text-align: center;
+	font-style: italic;
+	font-size: 0.60em;
+	padding: 1em;
+	border-top: solid 2px #8C3826;
+	width: 100%;
+	display:block;
+	/*Added so it looks like the page properly ends on larger monitors*/
+	border-bottom: solid 2px black;
+}
+
+/* =========================== */
+/* ===== 11. TABLE, FORM ===== */
+/* =========================== */
+table {
+	width: 90%;
+	border-spacing: 0;
+	margin: auto;
+	align-content: center;
+}
+
+th, td {
+	padding: 10px;
+}
+
+tr:nth-of-type(odd){
+	background-color: #DCB48C;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	padding-left: 1em;
+	width: 80%;
+}
+
+input, textarea {
+	margin-bottom: 0.5em;
+}
+
+
+/* ============================ */
+/* ===== 12. SCREEN 600PX ===== */
+/* ============================ */
+@media only screen and (min-width: 600px) {
+	header {
+		text-align: center;
+		padding-left: 0px;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	nav ul {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+		flex-direction: row;
+	}
+
+	nav li {
+		border-bottom: none;
+	}
+
+	form {
+		width: 40%;
+		display: grid;
+		grid-gap: 1em;
+		grid-template-columns: 6em 1fr;
+	}
+
+	input[type="submit"] {
+		grid-column-start: 2;
+		width: 9em;
+	}
+
+	#homehero {
+		height: 50vh;
+		background-image: url("Images/Images/hero.jpg");
+	}
+
+	#heromugs {
+		background-image: url("Images/Images/heromugs.jpg");
+	}
+
+	#heroguitar {
+		background-image: url("Images/Images/heroguitar.jpg");
+	}
+
+	#herojobs {
+		background-image: url("Images/Images/herojobs.jpg");
+	}
+
+	#flow {
+		display: flex;
+		flex-direction: row;
+	}
+
+	#mobile {
+		display: none;
+	}
+
+	#desktop {
+		display: inline;
+	}
+
+	.details {
+		display: flex;
+		flex-direction: row;
+	}
+
+}
+
+/* ============================= */
+/* ===== 13. SCREEN 1024PX ===== */
+/* ============================= */
+@media only screen and (min-width: 1024px) {
+
+	@supports (display: grid) {
+		header {
+			grid-area: header;
+		}
+
+		nav {
+			grid-area: nav;
+		}
+
+		main {
+			grid-area: main;
+		}
+
+		footer {
+			grid-area: footer;
+		}
+
+		#wrapper {
+			display: grid;
+			grid-template:
+				"header header"
+				"nav main"
+				"footer	footer"
+				/ 200px;
+		}
+
+		nav ul {
+			flex-direction: column;
+		}
+
+		header {
+			background-image: url("images/Images/coffeelogo.jpg")
+		}
+
+	}
+
+}
